@@ -1,0 +1,103 @@
+$color-light: #f5ebe0;
+$color-medium: #525870;
+$color-dark: #182e47;
+%color-hover {
+  &:hover {
+    color: hsl(210, 100%, 40%);
+    text-shadow: hsla(210,100%,20%,.3) 0 -1px 0, hsl(210,100%,85%) 0 2px 1px, hsla(200,100%,80%,1) 0 0 5px, hsla(210,100%,50%,.6) 0 0 20px;
+  }
+}
+
+$color-text-light: #eca049;
+$color-text-dark: #2b2b2b;
+
+$color-frames: #eca049;
+
+$font-text: 'VT323', cursive;
+$font-text2: 'VT323', sans-serif;
+
+$radius: 10px;
+$radius-label: 5px;
+$base-size: 12px;
+$transition: all 0.5s;
+
+$earthsize: 300px;
+
+%backgroundGlass {
+  background: rgb(158, 154, 154);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0);
+  backdrop-filter: blur(9.1px);
+  -webkit-backdrop-filter: blur(9.1px);
+  border: 1px solid rgba(255, 255, 255);
+}
+
+%menuButton {
+  background: #000000;
+  background: -webkit-linear-gradient(to top, #000000 0%, #020019 50%, #000000 100%);
+  background: -moz-linear-gradient(to top, #000000 0%, #020019 50%, #000000 100%);
+  background: linear-gradient(0deg,#eee 0%,#e3e3e3 10%,#fff 20.1%,#fff 25%,#f0f0f0 26%,#fff 28.000000000000004%,#ddd 55.00000000000001%,#eee 100%);
+  
+}
+
+// ---------- Animations for hover ---------- //
+$transitionTime-bg: 250ms;
+$transitionTime-text: 250ms;
+$transitionTime-shift: 250ms;
+$transitionTime-scale: 250ms;
+$transitionTimingFunction: linear;
+
+$transitionShiftUpButton: 0px;
+$transitionScaleButton: scale(1);
+
+$transitionShiftUpCart: 0px;
+$transitionScaleCart: scale(1);
+
+%transitionHover {
+  transition: background-color $transitionTime-bg,
+              color $transitionTime-text,
+              border-color $transitionTime-bg,
+              margin-bottom $transitionTime-shift,
+              transform $transitionTime-scale;
+  transition-timing-function: $transitionTimingFunction;
+}
+
+%projectImageHover {
+  &:hover {
+    filter: blur(1px);
+  }
+}
+
+// -------------- Frame section --------------
+
+$distanceFromEdge: 10px;
+$barThickness: 15px;
+$barLength: 97%;
+
+%frameBarsVertical {
+  position: absolute;
+  background-color: #fff;
+  width: $barThickness;
+  height: $barLength;
+  background: rgb(140,140,140);
+background: linear-gradient(90deg, rgba(140,140,140,1) 0%, rgba(230,230,230,1) 12%, rgba(177,177,177,1) 30%, rgba(236,236,236,1) 48%, rgba(237,237,237,1) 73%, rgba(65,65,65,1) 93%, rgba(62,62,62,1) 95%, rgba(140,140,140,1) 100%);
+}
+
+%frameBarsHorizontal {
+  position: absolute;
+  background-color: #fff;
+  width: $barLength;
+  height: $barThickness;
+  background: rgb(140,140,140);
+background: linear-gradient(0deg, rgba(140,140,140,1) 0%, rgba(230,230,230,1) 12%, rgba(177,177,177,1) 30%, rgba(236,236,236,1) 48%, rgba(237,237,237,1) 73%, rgba(65,65,65,1) 93%, rgba(62,62,62,1) 95%, rgba(140,140,140,1) 100%);
+}
+
+%frameCorners{
+  position: absolute;
+  background: linear-gradient(110deg,#eee 0%,#e3e3e3 10%,#fff 20.1%,#fff 25%,#f0f0f0 26%,#fff 28.000000000000004%,#ddd 55.00000000000001%,#eee 100%);
+  border-radius: 5px;
+  border: 1px solid #999;
+  border-width: 1px 1px 1px 1px;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,0.25),0px 0px 2px 4px rgba(0,0,0,0.1);
+}
+

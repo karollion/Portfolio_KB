@@ -1,0 +1,14 @@
+@import '../../../styles/settings.scss';
+
+.button {
+  background: #000;
+  color: seagreen;
+  font-family: 'VT323', monospace;
+  font-size: $base-size * 3.5;
+  font-weight: 100;
+  text-transform: uppercase;
+
+  &:hover {
+    background: $color-dark;
+  }
+}

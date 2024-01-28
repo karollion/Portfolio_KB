@@ -1,0 +1,109 @@
+{
+  "navBar": {
+    "about": "About",
+    "resume": "Resume",
+    "proj": "Projects",
+    "contact": "Contact",
+    "close": "Close",
+    "language": { "english": "English", "polish": "Polish" }
+  },
+  "footer": {
+    "phone": "690-302-400",
+    "email": "karol.bernatowicz@gmail.com",
+    "rights": "© 2023 All rights reserved"
+  },
+  "about": {
+    "label": "About",
+    "firstname": "Karol",
+    "lastname": "Bernatowicz",
+    "job": "Junior Full Stack Developer",
+    "abouttext": "I have been intensively learning web development for almost a year. I have experience in creating applications both on the frontend and backend. I perform the tasks entrusted to me thoroughly and I care about the clarity of the code In the future I want to work as a full stack developer. I know that I have little experience, so I am looking for a job where I will gain new skills."
+  },
+  "resume": {
+    "experience": {
+      "label": "Work experience",
+      "1": {
+        "years": "2016 - now",
+        "institution": "Maff - car upholstery",
+        "position": "Car Upholsterer",
+        "details": "My duties included disassembly of vehicle interiors, making new elements, according to wishes of the client. Installation in the car."
+      },
+      "2": {
+        "years": "2013 - 2016",
+        "institution": "Baltic Container Terminal sp. z o.o.",
+        "position": "Electro-automatic",
+        "details": "My duties included the repair and maintenance of machines, conducting technical inspections and ensuring the continuity of machine operation. I worked with Siemens brand controllers."
+      }
+    },
+    "education": {
+      "label": "Education",
+      "1": {
+        "years": "2023",
+        "institution": "Kodilla bootcamp",
+        "position": "Full Stack Developer",
+        "details": "The course included knowledge of frontend and backend development of web applications. 1:1 mentor support."
+      },
+      "2": {
+        "years": "2009 - 2013",
+        "institution": "Maritime Academy in Gdynia",
+        "position": "Engineer",
+        "details": "Electrical department. Specialization in marine electroautomation."
+      }
+    },
+    "skills": {
+      "label": "Skills",
+      "1": {
+        "name": "Reading technical documentation"
+      },
+      "2": {
+        "name": "Analytical thinking"
+      },
+      "3": {
+        "name": "Teamwork"
+      },
+      "4": {
+        "name": "Polish - native"
+      },
+      "5": {
+        "name": "English - B2"
+      }
+    },
+    "technologies": "Technologies",
+    "label": "Resume"
+  },
+  "projects": {
+    "label": "Projects",
+    "gobutton": "Go to project",
+    "project":
+      {
+        "4": {
+        "title": "Bazar",
+        "about": "A website for a furniture store that I created with my team. I have completely created the 'promoted' and 'feedback' sections."
+        },
+        "5": {
+          "title": "Choco-Shop",
+          "about": "Full-stack application for an online store selling chocolate products and other sweets. Shopping can be done as a guest or as a logged in user. On the home page, you can sort products by categories, and you can also search for a specific product on the search page. In the cart, you can change the number of pieces, size and add comments to the ordered product."
+          },
+        "3": {
+          "title": "Music Service",
+          "about": "Online music site. On the main page there are all songs, there is also a filtering of songs by genre. The search tab allows you to find songs by genre, title, author. The last tab, discover, randomizes a song from the genre of the most played songs."
+          },
+        "2": {
+          "title": "Pizzeria",
+          "about": "Pizzeria website. You can place an order online and reserve a table for a convenient date."
+          },
+        "1": {
+          "title": "Corporate website",
+          "about": "Individual website design built and styled exactly according to the client's design."
+          }
+      }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk",
+    "phone": "Phone:",
+    "phonenumber": "690-302-400",
+    "emailtitle": "E-mail:",
+    "email": "karol.bernatowicz@gmail.com"
+  }
+}

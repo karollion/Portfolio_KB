@@ -1,0 +1,65 @@
+@import '../../../styles/settings.scss';
+
+.containerSection {
+  height: 100%;
+  width: 100%;  
+  min-height: 700px;
+  position: relative;
+  padding: 10px;
+  margin: 50px 0;
+  
+  .inside {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    background: -webkit-linear-gradient(to top, #000000 0%, #020019 50%, #000000 100%);
+    background: -moz-linear-gradient(to top, #000000 0%, #020019 50%, #000000 100%);
+    background: linear-gradient(to top, #000000 0%, #020019 50%, #000000 100%);
+  }
+
+  .topbar {
+    @extend %frameBarsHorizontal;
+    top: $distanceFromEdge;
+    left: $distanceFromEdge; 
+  }
+
+  .bottombar {
+    @extend %frameBarsHorizontal;
+    bottom: $distanceFromEdge;
+    left: $distanceFromEdge;
+  }
+
+  .leftbar {
+    @extend %frameBarsVertical;
+    left: $distanceFromEdge;
+    top: 0;
+    height: 100%
+  }
+
+  .rightbar {
+    @extend %frameBarsVertical;
+    right: $distanceFromEdge;
+    top: $distanceFromEdge;
+    top: 0;
+    height: 100%
+  }
+
+  .bottomleftcorner {
+    @extend %frameCorners;
+    bottom: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    border-radius:  5px;
+  }
+
+  .topleftcorner {
+    @extend %frameCorners;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    border-radius:  5px;
+  }
+  
+}

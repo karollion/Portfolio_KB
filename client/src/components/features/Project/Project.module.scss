@@ -1,0 +1,76 @@
+@import '../../../styles/settings.scss';
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  padding: 0 30px;
+  
+  .insidecontainer {
+    display: flex;
+    width: 100%;
+    padding: 0 10px;
+    gap: 10px;
+  }
+
+  .toImage {
+    width: 450px;
+    height: 450px;
+    display: flex;
+    border: 1px solid $color-frames;
+
+    .image {
+      @extend %projectImageHover;
+    }
+  }
+
+  .toDescription {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 20px;
+
+    h2 {
+      margin: 0 0 20px 0;
+      font-size: calc($base-size * 2);
+    }
+
+    p {
+      margin: 10px 0 20px 0;
+      font-family: $font-text2;
+      font-size: $base-size *1.5;
+    }
+  }
+
+  .lebels {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .insidecontainer  {
+    height: 100%;
+    flex-direction: column;
+
+    .toImage {
+      width: 100%;
+      height: 100%;
+      .image {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .toDescription {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+}

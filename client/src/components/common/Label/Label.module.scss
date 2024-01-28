@@ -1,0 +1,18 @@
+@import '../../../styles/settings.scss';
+
+.label {
+  display: inline-block;
+  color: $color-text-light;
+  padding: 7px 15px;
+  margin-bottom: 10px;
+  font-size: calc($base-size * 1.5);
+  font-weight: 300;
+  border: 1px solid $color-frames;
+  cursor: pointer;
+
+  &:hover {
+    @extend %transitionHover;
+    background: $color-frames;
+    color: #000;
+  }
+}

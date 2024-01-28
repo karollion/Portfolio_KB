@@ -1,0 +1,43 @@
+@import '../../../styles/settings.scss';
+
+.resume {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  padding: 60px 10px;
+  color: $color-text-light;
+  font-size: calc($base-size * 1.2);
+
+  .title {
+    font-size: $base-size * 1.8;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-transform: uppercase;
+  }
+
+  .eduexp {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0 20px 0;
+    padding: 0 30px;
+
+    .left {
+      width: 100%;
+    }
+
+    .right{
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .eduexp {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+}

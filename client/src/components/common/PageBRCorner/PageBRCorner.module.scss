@@ -1,0 +1,13 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  @extend %frameCorners;
+  @extend %color-hover;
+  @extend %transitionHover;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}

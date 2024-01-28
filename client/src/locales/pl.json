@@ -1,0 +1,121 @@
+{
+  "navBar": {
+    "about": "O mnie",
+    "resume": "Życiorys",
+    "proj": "Projekty",
+    "contact": "Kontakt",
+    "close": "Zamknij",
+    "language": { "english": "Angielski", "polish": "Polski" }
+  },
+  "footer": {
+    "phone": "690-302-400",
+    "email": "karol.bernatowicz@gmail.com",
+    "rights": "© 2023 Wszelkie prawa zastrzeżone"
+  },
+  "about": {
+    "label": "O mnie",
+    "firstname": "Karol",
+    "lastname": "Bernatowicz",
+    "job": "Junior Full Stack Developer",
+    "abouttext": "Od prawie roku intensywnie uczę się tworzenia stron internetowych. Mam doświadczenie w tworzeniu aplikacji zarówno od strony frontendu jak i backendu. Powierzone mi zadania wykonuję dokładnie i dbam o przejrzystość kodu. W przyszłości chcę pracować jako full stack developer. Wiem że mam mało doświadczenia dlatego poszukuje pracy w której zdobęde nowe umiejętności."
+  },
+  "projects": {
+    "label": "Projekty",
+    "gobutton": "Idz do projektu",
+    "project": 
+      {
+        "4": {
+          "title": "Bazar",
+          "about": "Strona sklepu meblowego którą zrobiłem wraz z zespołem. Zrobiłem w całości sekcje 'promoted' oraz 'feedback'"
+          },
+        "5": {
+          "title": "Choco-Shop",
+          "about": "Aplikacja full-stack  sklepu internetowego z wyrobami czekoladowymi i innymi słodkościami. Zakupy można wykonywać jako gość jak i zalogowany urzytkownik. Na stronie głównej jest możliwość sortowania produktów kategoriami, można też wyszukać konkretny produkt na stronie wyszukiwania. W koszyku można zmieniać ilość sztuk, rozmiar i dodawać uwagi do zamówionego produktu."
+          },
+        "3": {
+          "title": "Serwis muzyczny",
+          "about": "Serwis muzyczny online. Na stronie głównej znajdują się wszystkie utwory, dostępne jest również filtrowanie utworów według gatunku. Zakładka wyszukiwania pozwala znaleźć utwory według gatunku, tytułu, autora. Ostatnia zakładka, odkryj, losuje utwór z gatunku najczęściej odtwarzanych utworów."
+          },
+        "2": {
+          "title": "Pizzeria",
+          "about": "Strona internetowa pizzeri. Można dokonac zamówienie online jak i zarezerwowac stolik na dogodny termin."
+          },
+        "1": {
+          "title": "Firmowa strona internetowa",
+          "about": "Projekt indywidualny strony internetowej zbudowanej i stylizowanej dokładnie według projektu klienta."
+          }
+      }
+  },
+  "resume": {
+    "experience": {
+      "label": "Doświadczenie",
+      "1": {
+        "years": "2016 - teraz",
+        "institution": "Maff - tapicerstwo samochodowe",
+        "position": "Tapicer samochodowy",
+        "details": "Do moich obowiązków należał demontaż wnętrz pojazdów, tworzenie nowych elementów, zgodnie z życzeniem klienta. Montaż w samochodzie."
+      },
+      "2": {
+        "years": "2013 - 2016",
+        "institution": "Bałtycki Terminal Kontenerowy sp. z o.o.",
+        "position": "Elektroautomatyk",
+        "details": "Do moich obowiązków należała naprawa i konserwacja maszyn, przeprowadzanie przeglądów technicznych oraz zapewnienie ciągłości pracy maszyn. Pracowałem ze sterownikami marki Siemens."
+      }
+    },
+    "education": {
+      "label": "Edukacja",
+      "1": {
+        "years": "2023",
+        "institution": "Kodilla bootcamp",
+        "position": "Full Stack Developer",
+        "details": "Kurs obejmował wiedzę z zakresu frontendu oraz backendu tworzenia aplikacji internetowych. Wsparcie mentora 1:1."
+      },
+      "2": {
+        "years": "2009 - 2013",
+        "institution": "Akademia morska w Gdyni",
+        "position": "Inżynier",
+        "details": "Wydział elektryczny. Specjalizacja elektroautomatyka okrętowa."
+      }
+    },
+    "skills": {
+      "label": "Umiejętności",
+      "1": {
+        "name": "Czytanie dokumentacji technicznej"
+      },
+      "2": {
+        "name": "Analityczne myślenie"
+      },
+      "3": {
+        "name": "Praca w zespole"
+      },
+      "4": {
+        "name": "Polski - Ojczysty"
+      },
+      "5": {
+        "name": "Angielski - B2"
+      }
+    },
+    "technologies": "Technologie",
+    "label": "Życiorys"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "title": "Porozmawiajmy",
+    "phone": "Telefon:",
+    "phonenumber": "690-302-400",
+    "emailtitle": "E-mail:",
+    "email": "karol.bernatowicz@gmail.com"
+  },
+  "project": [
+    {
+      "id": 4,
+      "title": "Sklep internetowy Bazar"
+    },
+    {
+      "id": 3,
+      "title": "Serwis muzyczny"
+    
+    }
+    
+  ]
+}
