@@ -231,21 +231,6 @@ const initialState = {
       img: 'pizza',
       link: 'https://8-project-pizzeria--karollion.repl.co/#/home',
     },
-    {
-      id: 1,
-      tech: [
-        {
-          id: 1,
-          name: 'HTML',
-        },
-        {
-          id: 2,
-          name: 'CSS',
-        },
-      ],
-      img: 'alecto',
-      link: 'https://karollion.github.io/Project-3-alecto/',
-    },
   ],
 
   activePage: 0,

@@ -1,13 +1,10 @@
+# Portfolio Karol Bernatowicz
 
-## Running the app
 
-```bash
-# development
-$ npm run start
+## Description
 
-# watch mode
-$ npm run start:dev
+Website with my best projects, information about me and contact details.
 
-# production mode
-$ npm run start:prod
-```
+I invite you to visit the website and see my projects.
+
+Project page: [Portfolio](https://portfolio-karol-bernatowicz.onrender.com/)
