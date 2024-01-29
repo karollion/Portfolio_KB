@@ -210,7 +210,7 @@ const initialState = {
         },
       ],
       img: 'musicPage',
-      link: 'https://project-music--karollion.repl.co/',
+      link: 'https://project-music-karollion.replit.app/',
     },
     {
       id: 2,
@@ -229,7 +229,7 @@ const initialState = {
         },
       ],
       img: 'pizza',
-      link: 'https://8-project-pizzeria--karollion.repl.co/#/home',
+      link: 'https://pizza-coffe.replit.app/',
     },
   ],
 
