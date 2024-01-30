@@ -30,7 +30,7 @@
           },
         "5": {
           "title": "Choco-Shop",
-          "about": "Aplikacja full-stack  sklepu internetowego z wyrobami czekoladowymi i innymi słodkościami. Zakupy można wykonywać jako gość jak i zalogowany urzytkownik. Na stronie głównej jest możliwość sortowania produktów kategoriami, można też wyszukać konkretny produkt na stronie wyszukiwania. W koszyku można zmieniać ilość sztuk, rozmiar i dodawać uwagi do zamówionego produktu."
+          "about": "Aplikacja full-stack  sklepu internetowego z wyrobami czekoladowymi i innymi słodkościami. Zakupy można wykonywać jako gość jak i zalogowany użytkownik. Na stronie głównej jest możliwość sortowania produktów kategoriami, można też wyszukać konkretny produkt na stronie wyszukiwania. W koszyku można zmieniać ilość sztuk, rozmiar i dodawać uwagi do zamówionego produktu."
           },
         "3": {
           "title": "Serwis muzyczny",
