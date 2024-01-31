@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import FrameSectLeft from '../../common/FrameSectLeft/FrameSectLeft';
 import { useTranslation } from 'react-i18next';
+import { FILES_URL } from '../../../config';
 
 const Project = props => {
   const { t } = useTranslation();
@@ -23,7 +24,7 @@ const Project = props => {
               className={styles.image}
               alt={props.title}
               href={props.link}
-              src={`${process.env.PUBLIC_URL}/images/projects/${props.img}.png`} />
+              src={`${FILES_URL}/images/projects/${props.img}.png`} />
           </div>
           <div className={styles.toDescription}>
             <h2>{t(`projects.project.${props.id}.title`)}</h2>

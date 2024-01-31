@@ -32,6 +32,11 @@
       width: 100%;
     }
   }
+
+  .cv {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {

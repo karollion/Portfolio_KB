@@ -124,33 +124,6 @@ const initialState = {
 
   projects: [
     {
-      id: "4",
-      tech: [
-        {
-          id: 1,
-          name: 'HTML',
-        },
-        {
-          id: 2,
-          name: 'CSS',
-        },
-        {
-          id: 3,
-          name: 'JavaScript',
-        },
-        {
-          id: 4,
-          name: 'React',
-        },
-        {
-          id: 5,
-          name: 'Redux',
-        },
-      ],
-      img: 'bazar',
-      link: 'https://wdp-2309-01.netlify.app/',
-    },
-    {
       id: "5",
       tech: [
         {
@@ -192,6 +165,33 @@ const initialState = {
       ],
       img: 'choco',
       link: 'https://choco-shop.onrender.com/',
+    },
+    {
+      id: "4",
+      tech: [
+        {
+          id: 1,
+          name: 'HTML',
+        },
+        {
+          id: 2,
+          name: 'CSS',
+        },
+        {
+          id: 3,
+          name: 'JavaScript',
+        },
+        {
+          id: 4,
+          name: 'React',
+        },
+        {
+          id: 5,
+          name: 'Redux',
+        },
+      ],
+      img: 'bazar',
+      link: 'https://wdp-2309-01.netlify.app/',
     },
     {
       id: 3,

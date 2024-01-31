@@ -43,6 +43,10 @@
       }
   },
   "resume": {
+    "cv": {
+      "file": "CV_Karol_Bernatowicz_FullStack_developer_PL.pdf",
+      "button": "Pobierz życiorys w PDF"
+    },
     "experience": {
       "label": "Doświadczenie",
       "1": {

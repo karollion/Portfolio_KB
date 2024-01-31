@@ -20,6 +20,10 @@
     "abouttext": "I have been intensively learning web development for almost a year. I have experience in creating applications both on the frontend and backend. I perform the tasks entrusted to me thoroughly and I care about the clarity of the code In the future I want to work as a full stack developer. I know that I have little experience, so I am looking for a job where I will gain new skills."
   },
   "resume": {
+    "cv": {
+      "file": "CV_Karol_Bernatowicz_FullStack_developer_EN.pdf",
+      "button": "Download resume in PDF"
+    },
     "experience": {
       "label": "Work experience",
       "1": {

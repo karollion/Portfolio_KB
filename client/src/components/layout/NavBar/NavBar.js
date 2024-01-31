@@ -30,10 +30,10 @@ const NavBar = () => {
         </label>
         <div className={styles.menu} id='menu'>
           <ul className={styles.nav}>
-            <NavLink key="/home"onClick={handleToggle} className={({ isActive }) => isActive ? styles.linkActive : ''} to='/'><li><span>{t('navBar.about')}</span></li></NavLink>
+            <NavLink key="/home" onClick={handleToggle} className={({ isActive }) => isActive ? styles.linkActive : ''} to='/'><li><span>{t('navBar.about')}</span></li></NavLink>
             <NavLink key="/resume" onClick={handleToggle} className={({ isActive }) => isActive ? styles.linkActive : ''} to='/resume'><li><span>{t('navBar.resume')}</span></li></NavLink>
             <NavLink key="/projects" onClick={handleToggle} className={({ isActive }) => isActive ? styles.linkActive : ''} to='/projects'><li><span>{t('navBar.proj')}</span></li></NavLink>
-            <NavLink key="/contact"onClick={handleToggle} className={({ isActive }) => isActive ? styles.linkActive : ''} to='/contact'><li><span>{t('navBar.contact')}</span></li></NavLink>
+            <NavLink key="/contact" onClick={handleToggle} className={({ isActive }) => isActive ? styles.linkActive : ''} to='/contact'><li><span>{t('navBar.contact')}</span></li></NavLink>
             {!langBtn ? (
             <li key="/english" onClick={() => {
                     handleChangeLanguage('en');

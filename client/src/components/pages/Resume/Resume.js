@@ -10,6 +10,8 @@ import FrameSectRight from '../../common/FrameSectRight/FrameSectRight';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useTranslation } from 'react-i18next';
+import Button from '../../common/Button/Button';
+import { FILES_URL } from '../../../config';
 
 const Resume = () => {
   const experience = useSelector(getAllExperience);
@@ -21,6 +23,19 @@ const Resume = () => {
     <ContainerSection>
       <PageLabel>{t('resume.label')}</PageLabel>
       <div className={styles.resume}>
+        <section className={styles.eduexp}>
+        <div 
+            data-aos="fade-left" 
+            data-aos-delay="150"
+            data-aos-once="true"
+            className={styles.right}>
+            <FrameSectRight>
+              <div className={styles.cv}>
+                <a href={FILES_URL + 'documents/' + t('resume.cv.file')}><Button>{t('resume.cv.button')}</Button></a>
+              </div>
+            </FrameSectRight>
+          </div>
+        </section>
         <section className={styles.section}>
           <Lists />
         </section>
