@@ -80,13 +80,17 @@
     "gobutton": "Go to project",
     "project":
       {
-        "4": {
+        "6": {
+          "title": "Choco-Shop",
+          "about": "Full-stack application for an online store selling chocolate products and other sweets. Shopping can be done as a guest or as a logged in user. On the home page, you can sort products by categories, and you can also search for a specific product on the search page. In the cart, you can change the number of pieces, size and add comments to the ordered product."
+          },
+        "5": {
         "title": "Bazar",
         "about": "A website for a furniture store that I created with my team. I have completely created the 'promoted' and 'feedback' sections."
         },
-        "5": {
-          "title": "Choco-Shop",
-          "about": "Full-stack application for an online store selling chocolate products and other sweets. Shopping can be done as a guest or as a logged in user. On the home page, you can sort products by categories, and you can also search for a specific product on the search page. In the cart, you can change the number of pieces, size and add comments to the ordered product."
+        "4": {
+          "title": "Vintage4You",
+          "about": "Full-stack application of an online portal for posting advertisements for the sale of antique items. Only logged in users can add ads, and they can also edit or delete their ads."
           },
         "3": {
           "title": "Music Service",

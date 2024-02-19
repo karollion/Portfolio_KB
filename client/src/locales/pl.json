@@ -24,13 +24,17 @@
     "gobutton": "Idz do projektu",
     "project": 
       {
-        "4": {
+        "6": {
+          "title": "Choco-Shop",
+          "about": "Aplikacja full-stack  sklepu internetowego z wyrobami czekoladowymi i innymi słodkościami. Zakupy można wykonywać jako gość jak i zalogowany urzytkownik. Na stronie głównej jest możliwość sortowania produktów kategoriami, można też wyszukać konkretny produkt na stronie wyszukiwania. W koszyku można zmieniać ilość sztuk, rozmiar i dodawać uwagi do zamówionego produktu."
+          },
+        "5": {
           "title": "Bazar",
           "about": "Strona sklepu meblowego którą zrobiłem wraz z zespołem. Zrobiłem w całości sekcje 'promoted' oraz 'feedback'"
           },
-        "5": {
-          "title": "Choco-Shop",
-          "about": "Aplikacja full-stack  sklepu internetowego z wyrobami czekoladowymi i innymi słodkościami. Zakupy można wykonywać jako gość jak i zalogowany użytkownik. Na stronie głównej jest możliwość sortowania produktów kategoriami, można też wyszukać konkretny produkt na stronie wyszukiwania. W koszyku można zmieniać ilość sztuk, rozmiar i dodawać uwagi do zamówionego produktu."
+        "4": {
+          "title": "Vintage4You",
+          "about": "Aplikacja full-stack  portalu internetowego do zamieszczania ogłoszeń sprzedaży zabytkowych rzeczy. Ogłoszenia może dodawać tylko zalogowany urzytkownik, może on również edytować lub usuwać swoje ogłoszenia."
           },
         "3": {
           "title": "Serwis muzyczny",

@@ -124,7 +124,7 @@ const initialState = {
 
   projects: [
     {
-      id: "5",
+      id: "6",
       tech: [
         {
           id: 1,
@@ -167,7 +167,7 @@ const initialState = {
       link: 'https://choco-shop.onrender.com/',
     },
     {
-      id: "4",
+      id: "5",
       tech: [
         {
           id: 1,
@@ -192,6 +192,49 @@ const initialState = {
       ],
       img: 'bazar',
       link: 'https://wdp-2309-01.netlify.app/',
+    },
+    {
+      id: "4",
+      tech: [
+        {
+          id: 1,
+          name: 'HTML',
+        },
+        {
+          id: 2,
+          name: 'CSS',
+        },
+        {
+          id: 3,
+          name: 'JavaScript',
+        },
+        {
+          id: 4,
+          name: 'React',
+        },
+        {
+          id: 5,
+          name: 'Redux',
+        },
+        {
+          id: 6,
+          name: 'Node.js',
+        },
+        {
+          id: 8,
+          name: 'Express.js',
+        },
+        {
+          id: 9,
+          name: 'MongoDB',
+        },
+        {
+          id: 9,
+          name: 'Mongoose',
+        },
+      ],
+      img: 'vintage',
+      link: 'https://vintage4you.replit.app/',
     },
     {
       id: 3,
