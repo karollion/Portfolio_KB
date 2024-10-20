@@ -234,7 +234,7 @@ const initialState = {
         },
       ],
       img: 'vintage',
-      link: 'https://vintage4you.replit.app/',
+      link: 'https://vintage4you.onrender.com/',
     },
     {
       id: 3,
@@ -253,7 +253,7 @@ const initialState = {
         },
       ],
       img: 'musicPage',
-      link: 'https://project-music-karollion.replit.app/',
+      link: 'https://taste-musicsite.onrender.com',
     },
     {
       id: 2,
@@ -272,7 +272,7 @@ const initialState = {
         },
       ],
       img: 'pizza',
-      link: 'https://pizza-coffe.replit.app/',
+      link: 'https://pizzeria-and-caffe.onrender.com',
     },
   ],
 
