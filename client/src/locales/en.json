@@ -27,13 +27,19 @@
     "experience": {
       "label": "Work experience",
       "1": {
-        "years": "2016 - now",
+        "years": "05.2025 - Now",
+        "institution": "Enbio Technology Sp. z o.o.",
+        "position": "Medical Device Service and Refurbishment Technician",
+        "details": "My responsibilities included diagnosing and repairing machines and their components, using the My Odoo software, validating repaired equipment, and training staff, including foreign employees."
+      },
+      "2": {
+        "years": "04.2016 - 09.2024",
         "institution": "Maff - car upholstery",
         "position": "Car Upholsterer",
         "details": "My duties included disassembly of vehicle interiors, making new elements, according to wishes of the client. Installation in the car."
       },
-      "2": {
-        "years": "2013 - 2016",
+      "3": {
+        "years": "12.2013 - 03.2016",
         "institution": "Baltic Container Terminal sp. z o.o.",
         "position": "Electro-automatic",
         "details": "My duties included the repair and maintenance of machines, conducting technical inspections and ensuring the continuity of machine operation. I worked with Siemens brand controllers."
